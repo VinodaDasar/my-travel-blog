@@ -1,0 +1,20 @@
+ul {
+    display:flex;
+    box-shadow: 6px 9px 18px -4px rgba(30,130,184,1);
+
+}
+li {
+    list-style: none;
+    padding:1rem;
+    cursor: pointer
+}
+li:hover {
+    background-color: #007bff;
+}
+a {
+    color: black !important;
+}
+a:hover {
+    text-decoration: none !important;
+    
+}
