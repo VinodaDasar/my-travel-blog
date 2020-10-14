@@ -18,7 +18,7 @@ class AddComments extends React.Component{
     }
 
     handleBack=()=>{
-        window.location.href='/'
+        window.location.href='/listall'
     }
 
     handleSubmit=(e)=>{

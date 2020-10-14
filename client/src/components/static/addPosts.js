@@ -1,8 +1,6 @@
 import React from 'react'
 import {connect} from 'react-redux'
-import axios from '../../config/axios'
-
-import {startGetUser} from '../../action/userAction'
+//import {startGetUser} from '../../action/userAction'
 import {startFilePost} from '../../action/mypostAction'
 
 class AddPost extends React.Component{
@@ -12,7 +10,7 @@ class AddPost extends React.Component{
         this.state={
             title: '',
             body:'',
-            photo:null
+            photo:{}
         }
     }
 /*
